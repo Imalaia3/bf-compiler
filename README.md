@@ -8,7 +8,7 @@ For this program to run, a few tools must be installed on the user's computer. T
  2. ld (GNU binutils) - Linker
  3. An operating system that supports the Linux syscalls.
 # Compilation & Execution
-To compile the **compiler**, run the following command: `g++  -Wall  -Wextra  compiler.cpp  -o  compiler`
+To compile the **compiler**, run the following command: `g++ -Wall -Wextra compiler.cpp -o compiler`
 Now, to compile a **Brainf\*\*k program** run the following command **in the same directory as the compiler binary**: `./compiler <myprogram.bf> <myprogrambinary>`
 
 # How does this work?
